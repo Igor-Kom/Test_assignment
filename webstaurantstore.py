@@ -40,7 +40,7 @@ class CromeSearch(unittest.TestCase):
         pages = int(driver.find_element_by_xpath('//*[@id="paging"]/nav/ul//li[8]').text)
         print(f'pages: {pages}')
 
-        # 2.1 create lists for all searched items and a list for items not contain "Table"
+        # 2.1 create a list for all searched items and a list for items not contain "Table"
         array1 = []
         non_table = []
 
