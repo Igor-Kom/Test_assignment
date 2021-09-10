@@ -83,7 +83,7 @@ class CromeSearch(unittest.TestCase):
         assert "WebstaurantStore Cart" in driver.title
 
         # 5 Try to empty the cart
-        # time.sleep(5) # try to empty by decrease button
+        # 5.1 try to empty by decrease button
         # driver.find_element(By.XPATH, '//*[@id="subject"]/div[2]').click()
         # wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="subject"]/div[2]')))
         # driver.find_element(By.XPATH, '//*[@id="subject"]/div[2]/div/a[1]/button').submit()
