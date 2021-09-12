@@ -55,7 +55,7 @@ class CromeSearch(unittest.TestCase):
                     s.append(n)
                     non_table.append(s)
 
-       # 2.2 print the page number and title of items which not contain "Table"
+       # 2.2 print the page number and title of items which don't contain "Table"
         for x in non_table:
             print(f'Page: #{x[-1]}  Tittle: "{x[0]}", this tittle does not contain "Table" ')
 
