@@ -59,12 +59,6 @@ class CromeSearch(unittest.TestCase):
         for x in non_table:
             print(f'Page: #{x[-1]}  Tittle: "{x[0]}", this tittle does not contain "Table" ')
 
-        # print(len(array1))
-        # print(f'count {len(array1)}')
-        # print(array1[-1])
-        # print(attr)
-        # print(non_table)
-
 # 4. Add the last of found items to Cart.
         driver.get(attr)
         attribute = driver.find_element(By.XPATH, '//*[@id="page-header-description"]').text
