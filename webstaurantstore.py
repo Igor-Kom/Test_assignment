@@ -89,7 +89,6 @@ class CromeSearch(unittest.TestCase):
 
         # 5.3 try to empty cart by cross button
         # driver.find_element(By.XPATH, '//*[@id="main"]/div[3]/form/div/div[2]/div[2]/div/div[6]/a').click()
-        print("OK")
 
         # 5.4 try to empty cart by GET Request
         driver.get('https://www.webstaurantstore.com/shoppingcart:cart.emptycart?nojs=1')
